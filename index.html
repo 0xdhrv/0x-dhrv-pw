@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="0xdhrv">
+    <meta name="description" content="Designer, Developer, and Minimalism.~ stuck b/w develop and deploy">
+    <meta name="keywords" content="0xdhrv, Dhruv Suthar, Dhruv, Suthar, 0x, dhrv, dhrv.pw, 0x.dhrv.pw, developer, designer, minimalism, dhruv, suthar, dhruv suthar">
+    <meta name="robots" content="index, follow">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="language" content="English">
+    <meta name="revisit-after" content="1 days">
+    <meta name="author" content="0xdhrv">
+    <meta name="twitter:image" content="https://res.cloudinary.com/dhrv/image/upload/v1602144615/resources/dhrv-Og.png" />
+    <meta name="og:image" content="https://res.cloudinary.com/dhrv/image/upload/v1602144615/resources/dhrv-Og.png" />
+    <title>Dhruv Suthar</title>
+    <meta name="description" content="Hey">
+    <link rel="stylesheet" href="font.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="tachyons.min.css">
+    <link rel="manifest" href="/favicons/manifest.json" />
+    <meta name="theme-color" content="#000000" />
+    <link rel="mask-icon" href="/favicons/pinned.svg" color="#000000" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/favicons/apple-touch-icon.png" />
+    <link rel="alternate icon" type="image/png" href="/favicons/dark.png" key="dynamic-favicon-alternate" />
+    <link rel="icon" type="image/svg+xml" href="/favicons/dark.svg" key="dynamic-favicon" />
+    <link rel="alternate icon" type="image/png" href="/favicons/light.png" key="dynamic-favicon-alternate" />
+    <link rel="icon" type="image/svg+xml" href="/favicons/light.svg" key="dynamic-favicon" />
+</head>
+
+<body class="bl bw3 bw4-m bw5-l">
+    <main class="cf pa3 pa4-m pa5-l mw9 center">
+        <div class="fr w-100 w-80-l">
+            <p class="f5" id="greeting"></p>
+            <h1 class="f2 f1-l lh-title mt0 mb4 mb5-ns">
+                dhruv<br class="dn db-ns"> suthar <br class="dn db-ns"> <span class="gray">des 19. und 20. jahrhunderts</span>
+            </h1>
+        </div>
+        <div class="f6 lh-copy fl w-100 mb4">
+            <div class="fl-ns w-100 w-20-l pr3-m pr5-l">
+                <p class="f4">
+                    earth
+                </p>
+                <small class="fw6">20.5937° N, 78.9629° E</small>
+            </div>
+            <div class="fl-ns w-50-m w-20-l pr3-m pr5-l">
+                <p class="f4">
+                    memento mori
+                </p>
+                <p class="i">
+                    there's nothing like a nice smile to let them know you give a shit
+                </p>
+            </div>
+            <div class="fl-ns w-50-m w-20-l pr3-m pr5-l">
+                <p class="f4">
+                    internet residence
+                </p>
+                <p>
+                    <a class="db link dim underline black" target="_blank" href="https://dhrv.pw/">design</a>
+                    <a class="db link dim underline black" target="_blank" href="https://blog.dhrv.pw/">blog</a>
+                    <a class="db link dim underline black" target="_blank" href="https://git.dhrv.pw/">code</a>
+                    <a class="db link dim underline black" target="_blank" href="https://srch.dhrv.pw/">search</a>
+                </p>
+            </div>
+            <div class="fl-ns w-50-m w-20-l pr3-m pr5-l">
+                <p class="f4">
+                    about me
+                </p>
+                <span class="db">linux evangelist</span>
+                <span class="db">practising minimalist</span>
+                <span class="db">frontend developer</span>
+                <span class="db">scarcely pretty face</span>
+                <span class="db">catwalk silhouette</span>
+            </div>
+            <div class="fl-ns w-50-m w-20-l pr3-m pr5-l">
+                <p class="f4">
+                    let's <del>talk</del>
+                    <form class="measure center" action="https://formsubmit.co/aacf140168e580558481577e121f8972" method="POST">
+                        <input type="hidden" name="_next" value="https://0x.dhrv.pw/">
+                        <input type="text" name="_honey" style="display:none">
+                        <input type="hidden" name="_captcha" value="false">
+                        <div class="mt2 bb b--gray">
+                            <input class="pa2 input-reset bn bb bg-transparent w-100" type="text" name="name" placeholder="name">
+                        </div>
+                        <div class="mv2 bb b--gray">
+                            <input class="pa2 input-reset bn bg-transparent w-100" type="email" name="email" placeholder="email">
+                        </div>
+                        <div class="mv2 bb b--gray">
+                            <textarea class="pa2 input-reset bn bg-transparent w-100" type="text" name="message" placeholder="message"></textarea>
+                        </div>
+                        <div class="mv2">
+                            <input class="b ph3 pv2 input-reset ba b--gray bg-transparent pointer f6 dib w-100" type="submit" value="submit">
+                        </div>
+                    </form>
+                </p>
+            </div>
+        </div>
+    </main>
+    <script>
+        var greeting;
+        window.onload = function() {
+            var time = new Date().getHours();
+            if (time < 10) {
+                greeting = "° modest morning";
+            } else if (time < 20) {
+                greeting = "° dysphoric day";
+            } else {
+                greeting = "° eldritch evening";
+            }
+            document.getElementById("greeting").innerHTML = greeting;
+        }
+    </script>
+</body>
+
+</html>
